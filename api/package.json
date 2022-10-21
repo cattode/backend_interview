@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "The API that ties together the back-end and the front-end",
+  "main": "main.ts",
+  "scripts": {
+    "start": "nodemon ./src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/hapi__hapi": "^20.0.13",
+    "@types/node": "^18.11.2",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nodemon": "^2.0.20"
+  }
+}
