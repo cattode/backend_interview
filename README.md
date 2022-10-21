@@ -22,10 +22,12 @@ dotnet run
 
 - Start the API service (it uses `nodemon` that will automatically pick up file changes and reload the service)
 ```
+npm install
 npm run start
 ```
 
 - Start the frontend service (it uses `webpack` that will automatically pick up changes and reload the page)
 ```
+npm install
 npm run start
 ```
