@@ -15,6 +15,7 @@
     "ts-node": "^10.9.1"
   },
   "dependencies": {
+    "@cloudamqp/amqp-client": "^2.1.0",
     "@hapi/hapi": "^20.2.2",
     "nodemon": "^2.0.20"
   }

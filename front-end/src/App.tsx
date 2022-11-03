@@ -3,6 +3,9 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
+  fetch("http://localhost:3000/lastMessages").then((res) => {
+    console.log({ res });
+  });
   return (
     <div className="App">
       <header className="App-header">
