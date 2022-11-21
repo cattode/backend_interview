@@ -7,17 +7,6 @@ services:
       - "15672:15672"
     networks:
       - my-network
-    healthcheck:
-      test: ["CMD", "nc", "-z", "localhost", "5672"]
-      interval: 10s
-      timeout: 10s
-      retries: 5
-  backend:
-    build: ./backend
-    networks:
-      - my-network
-    depends_on:
-      - rabbitmq
 networks:
   my-network:
     name: my-network
